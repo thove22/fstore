@@ -17,7 +17,7 @@ const Navbar = () => {
  }
   return (
     <nav className='p-4 overflow-x-hidden'>
-        <div className='container mx-auto flex items-center justify-between'>
+        <div className=' mx-auto flex items-center justify-between lg:px-6 xl:px-10'>
          <div className='flex space-x-2 items-center'>
             <div className=''>
                 <Image
@@ -27,10 +27,10 @@ const Navbar = () => {
                     height={32}
                 />
             </div>
-            <h3 className='mt-1 font-semibold font-manr'>Furniro</h3>
+            <h3 className='font-bold font-manr text-xl md:text-2xl'>Furniro</h3>
          </div>
          <div className='flex space-x-4 lg:hidden'>
-            <button>
+            <button className='hidden sm-block'>
                 <MdOutlineShoppingCart size={24}/>
             </button>
             <button onClick={toggleMenu} className='z-20'>
@@ -39,21 +39,21 @@ const Navbar = () => {
          </div>
           <div className={`fixed top-0 left-0 w-full h-screen z-10 bg-white ${isMenuopened ? 'translate-x-0' : 'translate-x-full'}`}>
            <div className='flex flex-col items-center justify-center h-full gap-4 -mt-3'>
-                <h6 className='text-xs'>Menu</h6>
+                <h6 className='text-2xl font-bold'>Menu</h6>
                <ul className=' flex flex-col justify-center items-center space-y-5'>
                    {navlinks.map(({label, path}, index)=>(
-                   <li key={index}>
-                    <Link href={path} className='text-2xl'>{label}</Link>
+                   <li key={index}   >
+                    <Link href={path} className='text-xl px-16 py-2 rounded-lg transition-colors active:bg-gray-50 cursor-pointer'>{label}</Link>
                    </li>
-                   ))}
+                   ))}                                   
                </ul>
            </div>
         </div>
-         <div className='hidden lg:flex space-x-3'>
+         <div className='hidden lg:flex lg:space-x-8 xl:space-x-12'>
             {navlinks.map(({label, path}, index)=>(
               <ul>
                  <li key={index}>
-                    <Link href={path}>{label}</Link>
+                    <Link className='xl:font-semibold ' href={path}>{label}</Link>
                  </li>
               </ul>                
             ))}

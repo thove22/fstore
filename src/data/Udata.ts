@@ -1,5 +1,6 @@
-
-
-export const navlinks = [
-    {label:"Home", path:"/"}, {label:"Shop", path:"/"}, {label:"About", path:"/"}, {label:"Contact", path:"/"}
-]
+ export const navlinks = [
+    {label:"Home", path:"/"},
+    {label:"Shop", path:"/shop"},
+    {label:"About", path:"/about"},
+    {label:"Contact", path:"/contact"}
+ ]
