@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Navbar from "@/componets/Navbar/Navbar";
+ import Navbar from "@/componets/Navbar/Navbar";
 import Hero from "@/componets/sections/Hero/Hero";
 export default function Home() {
   return (
