@@ -1,5 +1,6 @@
- import Navbar from "@/componets/Navbar/Navbar";
+import Navbar from "@/componets/Navbar/Navbar";
 import Hero from "@/componets/sections/Hero/Hero";
+import Collections from "@/componets/sections/Collections/Collections"; 
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
@@ -8,6 +9,9 @@ export default function Home() {
       </header>
       <section>
         <Hero/>
+      </section>  
+      <section>
+        <Collections/>
       </section>   
     </div>
   );
