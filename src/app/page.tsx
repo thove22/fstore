@@ -1,6 +1,6 @@
 import Navbar from "@/componets/Navbar/Navbar";
-import Hero from "@/componets/sections/Hero/Hero";
-import Collections from "@/componets/sections/Collections/Collections"; 
+import Hero from "@/componets/Sections/Hero/Hero";
+import Collections from "@/componets/Sections/Collections/Collections"; 
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
