@@ -58,5 +58,5 @@ export const products = [
     description: "Minimalist flower pot",
     price: "Rp 50.000,00",
     imgUrl: "/images/potty.png",
-  },
+  }
 ];
