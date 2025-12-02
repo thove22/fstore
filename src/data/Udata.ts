@@ -33,25 +33,25 @@ export const products = [
     title: "Respira",
     description: "Outdoor bar table and stool",
     price: 500000,
-    imgUrl: "/images/respira.jpg",
+    imgUrl: "/images/slytherine.png"
   },
   {
     title: "Grifo",
     description: "Night lamp",
     price: 1500000,
-    imgUrl: "/images/grifo.jpg",
+    imgUrl: "/images/grifo.png",
   },
   {
     title: "Muggo",
     description: "Small mug",
     price: 150000,
-    imgUrl: "/images/muggo.png",
+    imgUrl: "/images/lolito.jpg",
   },
   {
     title: "Pingky",
     description: "Cute bed set",
     price: 7000000,
-    imgUrl: "/images/pingky.png",
+    imgUrl: "/images/lolito.jpg",
   },
   {
     title: "Potty",
