@@ -14,49 +14,49 @@ export const products = [
   {
     title: "Slytherine",
     description: "Stylish cafe chair",
-    price: 2500000,
+    price: "Rp 2.500,00",
     imgUrl: "/images/slytherine.png",
   },
   {
     title: "Levisio",
     description: "Stylish cafe chair",
-    price: 2500000,
+    price:"Rp 3.000,00",
     imgUrl: "/images/levisio.jpg",
   },
   {
     title: "Lolito",
     description: "Luxury big sofa",
-    price: 7000000,
+    price: "Rp 7.500,00",
     imgUrl: "/images/lolito.jpg",
   },
   {
     title: "Respira",
     description: "Outdoor bar table and stool",
-    price: 500000,
+    price: "Rp 10.999,00",
     imgUrl: "/images/slytherine.png"
   },
   {
     title: "Grifo",
     description: "Night lamp",
-    price: 1500000,
+    price: "Rp 15.500,00",
     imgUrl: "/images/grifo.png",
   },
   {
     title: "Muggo",
     description: "Small mug",
-    price: 150000,
+    price: "Rp 2.954.500,00",
     imgUrl: "/images/lolito.jpg",
   },
   {
     title: "Pingky",
     description: "Cute bed set",
-    price: 7000000,
+    price: "Rp 2.500,00",
     imgUrl: "/images/lolito.jpg",
   },
   {
     title: "Potty",
     description: "Minimalist flower pot",
-    price: 500000,
+    price: "Rp 50.000,00",
     imgUrl: "/images/potty.png",
   },
 ];
