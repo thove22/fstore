@@ -4,14 +4,14 @@ import Image from 'next/image';
 interface ProductCardProps{
     title : string;
     description : string;
-    price : number;
+    price : string;
     imgUrl : string;
 }
 
 const ProductCard = ( {title, description, price, imgUrl }:ProductCardProps) => {
   return (
-    <div className='flex flex-col space-y-3 bg-base w-72'>
-       <div className='relative w-full h-64'>
+    <div className='flex flex-col space-y-3 bg-base w-72  sm:w-80 md:w-72 2xl:w-84'>
+       <div className='relative w-auto h-64'>
            <Image
              src={imgUrl}
              alt={description}
